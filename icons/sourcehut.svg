@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+    width="128" height="128">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5"
+        flood-color="black" />
+    </filter>
+    <filter id="text-shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5"
+        flood-color="#AAA" />
+    </filter>
+  </defs>
+  <circle cx="50%" cy="50%" r="38%" stroke="#878787" stroke-width="4%"
+    fill="none" filter="url(#shadow)" />
+  <circle cx="50%" cy="50%" r="38%" stroke="#878787" stroke-width="4%"
+    fill="none" filter="url(#shadow)" />
+</svg>
