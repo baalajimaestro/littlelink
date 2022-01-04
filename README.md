@@ -3,7 +3,7 @@
 ![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
 
 LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
-and [many.link](https://www.google.com). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
+and [many.link](https://many.link/). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
 
 ![Themes](https://cdn.cottle.cloud/littlelink/themes.png)
 
@@ -31,3 +31,6 @@ Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/com
 
 ##### Misc
 Check out [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink) by [Khashayar Zavosh](https://github.com/khashayarzavosh) which lets you host your own admin portal to manage LittleLink! 
+
+#### Supporters
+You can support LittleLink by [buying me a beer](https://www.buymeacoffee.com/seth). You can also have your name or your company added to this section and the supporters page of [LittleLink.io](https://littlelink.io) website.
