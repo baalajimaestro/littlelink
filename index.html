@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Page Information
@@ -17,11 +18,20 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
 
+
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton-light.css">
+
+  <!-- Themes:
+         Auto:   css/skeleton-auto.css
+         Light:  css/skeleton-light.css
+         Dark:   css/skeleton-dark.css
+  -->
+  <link rel="stylesheet" href="css/skeleton-auto.css">
+
   <link rel="stylesheet" href="css/brands.css">
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,6 +41,7 @@
 <script defer data-domain="links.baalajimaestro.me" src="https://counter.baalajimaestro.me/js/gatecounter.js"></script>
 
 </head>
+
 <body>
 
   <!-- Primary Page Layout
@@ -85,7 +96,7 @@
           
           1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
 
-          2.) src="icons/[icon_name].svg" | This defines the icon you would like to display from the icons/ folder. For example, you can change this to src="icons/discord.svg" to use the Discord icon.
+          2.) src="images/icons/[icon_name].svg" | This defines the icon you would like to display from the icons/ folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
           Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
 
           3.) alt="Example Logo" | This alt attribute helps provides alternate text for an image, this can assist users who use screen readers. 
@@ -93,57 +104,66 @@
         -->
 
         <!-- Github -->
-        <a class="button button-github" href="https://github.com/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="icons/github.svg" alt="GitHub Logo">GitHub</a>
+        <a class="button button-github" href="https://github.com/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a>
           <br>
 
         <!-- Gitlab -->
-        <a class="button button-gitlab" href="https://gitlab.com/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="icons/gitlab.svg" alt="GitLab Logo">GitLab</a>
+        <a class="button button-gitlab" href="https://gitlab.com/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="images/icons/gitlab.svg" alt="GitLab Logo">GitLab</a>
           <br>
           
-        <!-- Steam -->
-        <a class="button button-steam" href="https://git.sr.ht/~baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="icons/sourcehut.svg" alt="Steam Logo">Sourcehut</a>
+        <!-- SourceHut -->
+        <a class="button button-steam" href="https://git.sr.ht/~baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="images/icons/sourcehut.svg" alt="Sourcehut Logo">Sourcehut</a>
           <br>
 
+        <!-- Gitea -->
+        <a class="button button-whatsapp" href="https://git.baalajimaestro.me" target="_blank" rel="noopener"><img class="icon" src="images/icons/gitea.svg" alt="Gitea Logo">Gitea</a>
+          <br>
+
+        <!-- Files -->
+        <a class="button button-pinterest" href="https://mirrors.baalajimaestro.me" target="_blank" rel="noopener"><img class="icon" src="images/icons/folder.svg" alt="Folder Logo">Files</a>
+         <br>   
+
         <!-- Telegram -->
-       <a class="button button-telegram" href="https://t.me/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="icons/telegram.svg" alt="Telegram Logo">Telegram</a>
+       <a class="button button-telegram" href="https://t.me/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="images/icons/telegram.svg" alt="Telegram Logo">Telegram</a>
        <br>
         
         <!-- Discord -->
-        <a class="button button-discord" href="https://discord.com/users/404797553272684555" target="_blank" rel="noopener"><img class="icon" src="icons/discord.svg" alt="Discord Logo">Discord</a>
+        <a class="button button-discord" href="https://discord.com/users/404797553272684555" target="_blank" rel="noopener"><img class="icon" src="images/icons/discord.svg" alt="Discord Logo">Discord</a>
           <br>
 
         <!-- Instagram -->
-        <a class="button button-instagram" href="https://instagram.com/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="icons/instagram.svg" alt="Instagram Logo">Instagram</a>
+        <a class="button button-instagram" href="https://instagram.com/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a>
           <br>
 
         <!-- Reddit -->
-        <a class="button button-reddit" href="https://reddit.com/user/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="icons/reddit.svg" alt="Reddit Logo">Reddit</a>
+        <a class="button button-reddit" href="https://reddit.com/user/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="images/icons/reddit.svg" alt="Reddit Logo">Reddit</a>
           <br>   
 
         <!-- Twitter -->
-        <a class="button button-twit" href="https://twitter.com/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="icons/twitter.svg" alt="Twitter Logo">Twitter</a>
+        <a class="button button-twit" href="https://twitter.com/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="images/icons/twitter.svg" alt="Twitter Logo">Twitter</a>
           <br>
 
-        <!-- XING -->
-        <a class="button button-xing" href="https://matrix.to/#/@baalajimaestro:matrix.org" target="_blank" rel="noopener"><img class="icon" src="icons/matrix.svg" alt="xing Logo">Matrix</a>
-  
+        <!-- Matrix -->
+        <a class="button button-xing" href="https://matrix.to/#/@baalajimaestro:matrix.org" target="_blank" rel="noopener"><img class="icon" src="images/icons/matrix.svg" alt="Matrix Logo">Matrix</a>
+          <br>      
+        
         <!-- Email -->
-        <a class="button button-default" href="mailto:me@baalajimaestro.me" target="_blank" rel="noopener"><img class="icon" src="icons/email.svg" alt="Email Icon">me@baalajimaestro.me</a>
+        <a class="button button-default" href="mailto:me@baalajimaestro.me" target="_blank" rel="noopener"><img class="icon" src="images/icons/email.svg" alt="Email Icon">me@baalajimaestro.me</a>
           <br>
 
         <!-- PayPal-->
-        <a class="button button-paypal" href="https://paypal.me/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="icons/paypal.svg" alt="PayPal Logo">Donate on PayPal</a>
+        <a class="button button-paypal" href="https://paypal.me/baalajimaestro" target="_blank" rel="noopener"><img class="icon" src="images/icons/paypal.svg" alt="PayPal Logo">Donate on PayPal</a>
         <br>
 
         <br>
-        <br>
         <p>Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>.</p>
-          
+
       </div>
     </div>
   </div>
 
-<!-- End Document
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
