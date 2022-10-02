@@ -458,6 +458,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Strava */
+.button.button-strava {
+  color: #ffffff;
+  background-color: #fc5200;
+}
+.button.button-strava:hover,
+.button.button-strava:focus {
+  filter: brightness(90%);
+}
+
 /* Telegram */
 .button.button-telegram {
   color: #ffffff;
@@ -535,6 +545,16 @@ button:hover,
 }
 .button.button-venmo:hover,
 .button.button-venmo:focus {
+  filter: brightness(90%);
+}
+
+/* Untappd */
+.button.button-untappd {
+  color: #ffffff;
+  background-color: #ffc000;
+}
+.button.button-untappd:hover,
+.button.button-untappd:focus {
   filter: brightness(90%);
 }
 
