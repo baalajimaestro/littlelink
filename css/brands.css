@@ -124,16 +124,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Ko-fi */
-.button.button-ko-fi {
-  color: #ffffff;
-  background-color: #13C3FF;
-}
-.button.button-ko-fi:hover,
-.button.button-ko-fi:focus {
-  filter: brightness(90%);
-}
-
 /* Cash App */
 .button.button-cashapp {
   color: #ffffff;
@@ -222,7 +212,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Github */
+/* GitHub */
 .button.button-github {
   color: #ffffff;
   background-color: #000000;
@@ -262,6 +252,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Hashnode */
+.button.button-hashnode {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-hashnode:hover,
+.button.button-hashnode:focus {
+  filter: brightness(90%);
+}
+
 /* Instagram */
 .button.button-instagram {
   color: #ffffff;
@@ -292,6 +292,26 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Ko-fi */
+.button.button-ko-fi {
+  color: #ffffff;
+  background-color: #13C3FF;
+}
+.button.button-ko-fi:hover,
+.button.button-ko-fi:focus {
+  filter: brightness(90%);
+}
+
+/* Letterboxd */
+.button.button-letterboxd {
+  color: #ffffff;
+  background-color: #2c3440;
+}
+.button.button-letterboxd:hover,
+.button.button-letterboxd:focus {
+  filter: brightness(90%);
+}
+
 /* LinkedIn */
 .button.button-linked {
   color: #ffffff;
@@ -305,7 +325,7 @@ button:hover,
 /* Mastodon */
 .button.button-mastodon {
   color: #ffffff;
-  background-color: #1f232b;
+  background-color: #17063B;
 }
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
@@ -385,6 +405,19 @@ button:hover,
 }
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
+  filter: brightness(90%);
+}
+
+/* Redbubble */
+.button.button-redbubble {
+  color: #e41321;
+  border-style: solid;
+  border-color: #e41321;
+  border-width: 2px;
+  background-color: #ffffff;
+}
+.button.button-redbubble:hover,
+.button.button-redbubble:focus {
   filter: brightness(90%);
 }
 
@@ -538,16 +571,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Venmo */
-.button.button-venmo {
-  color: #ffffff;
-  background-color: #008CFF;
-}
-.button.button-venmo:hover,
-.button.button-venmo:focus {
-  filter: brightness(90%);
-}
-
 /* Untappd */
 .button.button-untappd {
   color: #ffffff;
@@ -555,6 +578,16 @@ button:hover,
 }
 .button.button-untappd:hover,
 .button.button-untappd:focus {
+  filter: brightness(90%);
+}
+
+/* Venmo */
+.button.button-venmo {
+  color: #ffffff;
+  background-color: #008CFF;
+}
+.button.button-venmo:hover,
+.button.button-venmo:focus {
   filter: brightness(90%);
 }
 
@@ -626,15 +659,5 @@ button:hover,
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
-  filter: brightness(90%);
-}
-
-/* Letterboxd */
-.button.button-letterboxd {
-  color: #ffffff;
-  background-color: #2c3440;
-}
-.button.button-letterboxd:hover,
-.button.button-letterboxd:focus {
   filter: brightness(90%);
 }
