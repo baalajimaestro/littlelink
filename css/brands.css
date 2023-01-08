@@ -312,6 +312,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Google Scholar */
+.button.button-google-scholar {
+  color: #000000;
+  background-color: #f5f5f5;
+}
+.button.button-google-scholar:hover,
+.button.button-google-scholar:focus {
+  filter: brightness(90%);
+}
+
 /* Hashnode */
 .button.button-hashnode {
   color: #000000;
@@ -452,6 +462,16 @@ button:hover,
 }
 .button.button-pinterest:hover,
 .button.button-pinterest:focus {
+  filter: brightness(90%);
+}
+
+/* Post.news */
+.button.button-post-news {
+  color: #ffffff;
+  background-color: #678BFF;
+}
+.button.button-post-news:hover,
+.button.button-post-news:focus {
   filter: brightness(90%);
 }
 
@@ -739,5 +759,15 @@ button:hover,
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
+  filter: brightness(90%);
+}
+
+/* Unsplash */
+.button.button-unsplash {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-unsplash:hover,
+.button.button-unsplash:focus {
   filter: brightness(90%);
 }
