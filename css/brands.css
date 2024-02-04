@@ -474,6 +474,26 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Kick */
+.button.button-kick {
+  background-color:#000000;
+  color:  #ffffff;
+  border: 1px solid #ffffff;
+}
+.button.button-kick:hover {
+  filter: brightness(90%);
+}
+
+/* Kick Alt */
+.button.button-kick-alt {
+  background-color:#01e701;
+  color:  #000;
+}
+.button.button-kick-alt:hover {
+  filter: brightness(90%);
+}
+
+
 /* Kickstarter */
 .button.button-kickstarter {
   color: #ffffff;
@@ -536,7 +556,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-
 /* LinkedIn */
 .button.button-linked {
   color: #ffffff;
@@ -579,6 +598,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* NGL */
+.button.button-ngl {
+  color: #ffffff;
+  background-image: linear-gradient(-45deg, #ff8d10, #ec1187);
+}
+.button.button-ngl:hover,
+.button.button-ngl:focus {
+  filter: brightness(90%);
+}
+
 /* Notion */
 .button.button-notion {
   color: #000000;
@@ -600,10 +629,22 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Partiful */
+.button.button-partiful {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-partiful:hover,
+.button.button-partiful:focus {
+  filter: brightness(90%);
+}
+
 /* Patreon */
 .button.button-patreon {
   color: #ffffff;
-  background-color: #ff424d;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-patreon:hover,
 .button.button-patreon:focus {
@@ -676,9 +717,8 @@ button:hover,
 
 /* Reddit */
 .button.button-reddit {
-  color: #000000;
-  background-color: #d7dfe2;
-  border: 1px solid #212121;
+  color: #FFFFFF;
+  background-color: #FF4500;
 }
 .button.button-reddit:hover,
 .button.button-reddit:focus {
@@ -778,6 +818,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Steam Dark */
+.button.button-steam-dark {
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
+}
+.button.button-steam-dark:hover,
+.button.button-steam-dark:focus {
+  filter: brightness(90%);
+}
+
 /* Steam */
 .button.button-steam {
   color: #ffffff;
@@ -818,6 +868,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Threads */
+.button.button-threads {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-threads:hover,
+.button.button-threads:focus {
+  filter: brightness(90%);
+}
+
 /* Threema */
 .button.button-threema {
   color: #000000;
@@ -836,6 +897,16 @@ button:hover,
 }
 .button.button-tiktok:hover,
 .button.button-tiktok:focus {
+  filter: brightness(90%);
+}
+
+/* Trakt */
+.button.button-trakt {
+  color: #ffffff;
+  background-color: #ED1C24;
+}
+.button.button-trakt:hover,
+.button.button-trakt:focus {
   filter: brightness(90%);
 }
 
@@ -870,7 +941,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Twitter */
+/* Twitter (archiving soon, see 'X') */
 .button.button-twit {
   color: #ffffff;
   background-color: #1da1f2;
@@ -893,7 +964,7 @@ button:hover,
 
 /* Untappd */
 .button.button-untappd {
-  color: #ffffff;
+  color: #000000;
   background-color: #ffc000;
 }
 .button.button-untappd:hover,
@@ -981,6 +1052,17 @@ button:hover,
 }
 .button.button-wordpress:hover,
 .button.button-wordpress:focus {
+  filter: brightness(90%);
+}
+
+/* X */
+.button.button-x {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-x:hover,
+.button.button-x:focus {
   filter: brightness(90%);
 }
 
